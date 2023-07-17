@@ -35,7 +35,7 @@ function App() {
       <Button
         variant="outlined"
         target="_blank"
-        href="http://localhost:8080/v1/swagger-ui/index.html"
+        href="https://jobbyapi-production.up.railway.app/swagger-ui/index.html"
       >
         Documentação API
       </Button>
