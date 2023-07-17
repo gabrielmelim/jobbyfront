@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/mjv-java-school-front"
-})
+});
+
+// Adicione os scripts de construção e execução
+export const scripts = {
+  build: 'npm run build',
+  start: 'npm start',
+};

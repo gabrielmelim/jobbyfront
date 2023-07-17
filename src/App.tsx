@@ -3,10 +3,6 @@ import {
   Typography,
   Box,
   Button,
-  Modal,
-  FormControl,
-  InputLabel,
-  TextField,
 } from "@mui/material";
 import { ModalCandidato } from "./components/ModalCandidato";
 
